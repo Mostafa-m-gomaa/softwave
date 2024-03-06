@@ -1,0 +1,70 @@
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.landing .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.landing .container {
+  display: flex;
+  justify-content: space-between;
+  height: 88%;
+}
+.landing .container .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  z-index: 10;
+}
+.landing .container .left p {
+  width: 40%;
+  margin: 15px 0;
+}
+.landing .container .left a {
+  color: black;
+  text-decoration: none;
+  background-color: var(--main);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.landing .container .right {
+  width: 40%;
+  position: relative;
+  height: 100%;
+}
+.landing .container .right img {
+  position: absolute;
+}
+.landing .container .right .mopile {
+  width: 270px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.landing .container .right .surface {
+  width: 420px;
+  bottom: -80px;
+  right: -20px;
+}
+.landing .container .right .profile {
+  width: 200px;
+  bottom: -40px;
+}
+.landing .container .right .search {
+  width: 200px;
+  right: 0;
+}
+.landing .container .right .qube {
+  width: 200px;
+  top: 100px;
+}/*# sourceMappingURL=landing.css.map */

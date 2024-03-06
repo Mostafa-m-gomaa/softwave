@@ -1,0 +1,40 @@
+.header {
+  box-shadow: 8.8px 4.5px 7.2px rgba(0, 0, 0, 0.106), 24.4px 12.5px 20px rgba(0, 0, 0, 0.126), 58.8px 30.1px 48.2px rgba(0, 0, 0, 0.14), 195px 100px 160px rgba(0, 0, 0, 0.19);
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+.header .container .left {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+}
+.header .container .left a {
+  padding-top: 5px;
+  color: black;
+}
+.header .container .left img {
+  width: 150px;
+  margin-right: 70px;
+}
+.header .container .right {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 30%;
+}
+.header .container .right a {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+.header .container .right img {
+  width: 20px;
+}/*# sourceMappingURL=header.css.map */
